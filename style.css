@@ -1,0 +1,71 @@
+.et {
+	margin: 0 auto;
+	background-color: aqua;
+	width: 300px;
+	height: 90px;
+	border-bottom: 1px solid #000;
+}
+.et h1 {
+	margin: 0;
+	text-align: center;
+}
+
+.d {
+	-webkit-clip-path: polygon(23% 74%, 84% 75%, 100% 100%, 0% 100%);
+	clip-path: polygon(23% 74%, 84% 75%, 100% 100%, 0% 100%);
+	width: 400px;
+	height: 200px;
+	background-color: #000;
+	position: relative;
+	left: 39%;
+}
+.chel {
+	position: relative;
+	left: 53%;
+	width: 60px;
+}
+.btns {
+	margin-left: 70pc;
+}
+
+.pl {
+	border-radius: 20px;
+	border: none;
+	background-color: aqua;
+	width: 90px;
+	height: 40px;
+}
+.min {
+	border-radius: 20px;
+	border: none;
+	background-color: aqua;
+	width: 90px;
+	height: 40px;
+}
+
+.chel {
+    z-index: 1;
+	transition: 3s;
+}
+
+.gar {
+	width: 300px;
+	height: 91px;
+/* z-index: revert;    overflow: hidden; */
+	position: absolute;
+    left: 42.2%;
+    bottom: -2.3pc;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border: greenyellow solid 2px;
+    background-color: aqua;
+
+    border-radius: 50%;
+}
+button:hover{
+    transition: 0.5s;
+    width: 100px;
+    height: 100px;
+}
